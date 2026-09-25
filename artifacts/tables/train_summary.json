@@ -1,0 +1,105 @@
+{
+  "A_mnist_mlp": {
+    "id": "mnist",
+    "arch": "mlp",
+    "n_classes": 10,
+    "test_acc": 0.9846,
+    "test_nll": 0.05733237415552139,
+    "elapsed_s": 3.422063112258911,
+    "ood_sets": [
+      "fashion_mnist",
+      "kmnist",
+      "gaussian",
+      "uniform"
+    ]
+  },
+  "B_mnist_mlp_overtrained": {
+    "id": "mnist",
+    "arch": "mlp",
+    "n_classes": 10,
+    "test_acc": 0.9842,
+    "test_nll": 0.15061305463314056,
+    "elapsed_s": 3.1668505668640137,
+    "ood_sets": [
+      "fashion_mnist",
+      "kmnist",
+      "gaussian",
+      "uniform"
+    ]
+  },
+  "C_fashion_smallcnn": {
+    "id": "fashion_mnist",
+    "arch": "small_cnn",
+    "n_classes": 10,
+    "test_acc": 0.9194,
+    "test_nll": 0.22424110770225525,
+    "elapsed_s": 4.392266273498535,
+    "ood_sets": [
+      "mnist",
+      "kmnist",
+      "gaussian",
+      "uniform"
+    ]
+  },
+  "D_cifar10_smallcnn": {
+    "id": "cifar10",
+    "arch": "small_cnn",
+    "n_classes": 10,
+    "test_acc": 0.7684,
+    "test_nll": 0.6724568605422974,
+    "elapsed_s": 6.745581150054932,
+    "ood_sets": [
+      "svhn",
+      "cifar100",
+      "gaussian"
+    ]
+  },
+  "E_cifar10_resnet18": {
+    "id": "cifar10",
+    "arch": "resnet18",
+    "n_classes": 10,
+    "test_acc": 0.8674,
+    "test_nll": 0.7453050017356873,
+    "elapsed_s": 9.118865013122559,
+    "ood_sets": [
+      "svhn",
+      "cifar100",
+      "gaussian"
+    ]
+  },
+  "F_cifar100_resnet18": {
+    "id": "cifar100",
+    "arch": "resnet18",
+    "n_classes": 100,
+    "test_acc": 0.5869,
+    "test_nll": 2.4075262546539307,
+    "elapsed_s": 8.95820164680481,
+    "ood_sets": [
+      "svhn",
+      "cifar10",
+      "gaussian"
+    ]
+  },
+  "G_cifar10_resnet18_ls": {
+    "id": "cifar10",
+    "arch": "resnet18",
+    "n_classes": 10,
+    "test_acc": 0.873,
+    "test_nll": 0.49612128734588623,
+    "elapsed_s": 8.908459663391113,
+    "ood_sets": [
+      "svhn",
+      "cifar100",
+      "gaussian"
+    ]
+  },
+  "AUX3_mnist_479": {
+    "id": "mnist",
+    "arch": "mlp",
+    "n_classes": 3,
+    "test_acc": 0.9884067572043723,
+    "test_nll": 0.039634447544813156,
+    "elapsed_s": 1.0639538764953613,
+    "ood_sets": []
+  }
+}

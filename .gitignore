@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+artifacts/checkpoints/*.pt
+artifacts/logits/*.npz
+artifacts/logits/*.parquet
+*.egg-info/
+.venv/
+.DS_Store

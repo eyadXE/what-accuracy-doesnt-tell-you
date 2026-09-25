@@ -1,0 +1,8 @@
+tag,spearman_margin_ptop1,n_classes
+A_mnist_mlp,0.9645661331813283,10
+B_mnist_mlp_overtrained,0.3885752188206964,10
+C_fashion_smallcnn,0.9972269984685642,10
+D_cifar10_smallcnn,0.966315815218036,10
+E_cifar10_resnet18,0.980372946559075,10
+F_cifar100_resnet18,0.9900159259292443,100
+G_cifar10_resnet18_ls,0.9532514924840634,10
